@@ -20,28 +20,6 @@ You can navigate through the repository by browsing the folders named `Day1`, `D
 - **README.md:** A brief explanation of what was accomplished, learned, or any challenges faced on that day.
 - **Resources:** Any additional resources, links, or references used.
 
-## Example Directory Structure
-
-```
-/100-days-of-code/
-│
-├── Day1/
-│   ├── main.py
-│   ├── README.md
-│   └── resources/
-│
-├── Day2/
-│   ├── script.js
-│   ├── README.md
-│   └── resources/
-│
-└── Day3/
-    ├── index.html
-    ├── style.css
-    ├── app.js
-    ├── README.md
-    └── resources/
-```
 
 ## Progress Tracking
 
