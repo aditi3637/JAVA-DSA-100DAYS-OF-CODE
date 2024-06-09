@@ -1,0 +1,29 @@
+## `switch` Statement in Java
+
+The `switch` statement in Java is a control flow statement that allows for the execution of one block of code among many, based on the value of an expression. It is similar to using multiple `if-else` statements but can be more readable and efficient for certain types of scenarios.
+
+### How It Works:
+1. **Expression Evaluation**: The `switch` statement evaluates a single expression, which must result in an `int`, `char`, `byte`, `short`, `String`, or an enum type.
+2. **Case Labels**: Each possible value of the expression is defined by a `case` label.
+3. **Code Execution**: When the expression matches a `case` label, the code associated with that label is executed.
+4. **Break Statement**: Each `case` block typically ends with a `break` statement to prevent fall-through to subsequent cases.
+5. **Default Case**: An optional `default` case can be included to handle any values that do not match any of the `case` labels.
+
+### Benefits:
+- Improved readability over multiple `if-else` statements.
+- Potentially more efficient for large sets of conditions.
+
+---
+
+## Nested `switch` Statements in Java
+
+A nested `switch` statement refers to a `switch` statement inside another `switch` statement. This can be useful for more complex decision-making processes where multiple levels of conditions need to be evaluated.
+
+### How It Works:
+1. **Outer Switch**: The outer `switch` statement evaluates an expression and directs the flow based on its value.
+2. **Inner Switch**: Within one or more `case` blocks of the outer `switch`, another `switch` statement (the inner `switch`) is used to further refine the decision-making process.
+3. **Independent Cases**: The inner `switch` works independently of the outer `switch`, evaluating its own expression and case labels.
+
+### Considerations:
+- **Readability**: While nesting `switch` statements can be powerful, it can also make the code more complex and harder to read. Ensure that the logic remains clear and maintainable.
+- **Efficiency**: Be mindful of the performance implications, especially if the nested switches are deeply nested or involve many case labels.
